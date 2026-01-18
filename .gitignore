@@ -1,0 +1,41 @@
+
+# =========================
+# Robot Framework outputs
+# =========================
+output.xml
+log.html
+report.html
+*.png
+
+logs/
+results/
+output/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# =========================
+# Playwright / Browser
+# =========================
+playwright/.cache/
+node_modules/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS / Misc
+# =========================
+.DS_Store
+Thumbs.db
