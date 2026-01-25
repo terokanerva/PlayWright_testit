@@ -3,6 +3,8 @@ Resource    ../resources/keywords.resource
 Suite Setup    Open Playwright Site
 Suite Teardown    Close Browser
 
+Test Setup    Go To    url=https://playwright.dev/
+
 *** Test Cases ***
 Verify Playwright Site Loads
     Wait For Elements State    h1    visible    5s

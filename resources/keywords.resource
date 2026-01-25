@@ -32,6 +32,6 @@ Verify Navbar Dropdown Items
     Wait For Elements State    css=.dropdown__menu    visible    5s
 
     Wait For Elements State    role=link[name="Node.js"]    visible    5s
-    Wait For Elements State    role=link[name="Python"]    visible    5s
-    Wait For Elements State    role=link[name="Java"]    visible    5s
-    Wait For Elements State    role=link[name=".NET"]    visible    5s
+    Wait For Elements State    css=.dropdown__menu a.dropdown__link[data-language-prefix="/python/"]    visible    5s
+    Wait For Elements State    css=.dropdown__menu a.dropdown__link[data-language-prefix="/java/"]    visible    5s
+    Wait For Elements State    css=.dropdown__menu a.dropdown__link[data-language-prefix="/dotnet/"]    visible    5s
